@@ -1,0 +1,31 @@
+.adv {
+    min-height: 470px;
+    padding: 70px 0 80px 0;
+    text-align: center;
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+    }
+    &__item {
+        max-width: 242px;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #0d0d0d;
+        span {
+            display: block;
+            font-size: 18px;
+            line-height: 1.2;
+            font-weight: 700;
+            color: #0d0d0d;
+            margin-top: 24px;
+            margin-bottom: 20px;
+        }
+        em {
+            text-decoration: underline;
+            color: #ff0000;
+        }
+    }
+}
