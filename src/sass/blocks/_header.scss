@@ -1,0 +1,29 @@
+.header {
+    &__logo{
+        img{
+            width: 100%;
+        }
+    }
+    &__official{
+        padding: 0;
+        font-size: 12px;
+        color: #ffffff;
+        text-align: center;
+        span {
+            font-size: 18px;
+        }
+    }
+
+    &__phone {
+        display: block;
+        font-size: 18px;
+        font-weight: 400;
+        text-decoration: none;
+        color: #fff;
+        margin: 0 auto;
+        &:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}
