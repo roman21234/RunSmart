@@ -2,4 +2,41 @@
     min-height: 650px;
     padding: 21px 0 93px 0;
     background: url(../../img/background.jpg) center (center/cover) no-repeat;
+    &__h1 {
+        font-size: 42px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: right;
+    }
+    &__h2 {
+        font-size: 24px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: right;
+    }
+    &__h {
+        padding-top: 91px;
+    }
+    &__advantages {
+        padding-top: 60px;
+    }
+    &__ico {
+        display: block;
+        margin: 0 auto;
+    }
+    &__subico {
+        font-size: 14px;
+        font-weight: 500;
+        color: #ffffff;
+        text-align: center;
+    }
+    &__advantage {
+        width: 160px;
+    }
+    &__buttons {
+        padding-top: 68px;
+        
+    }
 }
