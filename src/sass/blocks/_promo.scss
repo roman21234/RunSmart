@@ -37,6 +37,14 @@
     }
     &__buttons {
         padding-top: 68px;
-        
+    }
+    &__catalog{
+        font-size: 16px;
+        font-weight: 500;
+        color: #ffffff;
+        a {
+            text-decoration: underline;
+            color: #ffffff;
+        }
     }
 }
