@@ -7,4 +7,29 @@
         color: #0d0d0d;
         text-align: center;
     }
+    &__block {
+        padding-top: 55px;
+        width: 250px;
+    }
+    &__ico {
+        display: block;
+        margin: 0 auto;
+    }
+    &__h {
+        font-size: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
+        text-align: center;
+        padding-top: 30px;
+    }
+    &__text {
+        font-size: 14px;
+        font-weight: 300;
+        color: #0d0d0d;
+        text-align: center;
+        a {
+            text-decoration: underline;
+            color: #ff0000;
+        }
+    }
 }
