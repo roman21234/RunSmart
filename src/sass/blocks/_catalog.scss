@@ -137,6 +137,10 @@
             color: $main-color;
             text-align: center;
             margin-top: 10px;
+            &:hover {
+                color: $main-color;
+                text-decoration: none;
+            }
         }
         &__prices {
             font-size: 20px;
@@ -168,6 +172,7 @@
             color: $main-color;
             &:hover {
                 color: $main-color;
+                text-decoration: none;
             }
         }
 
