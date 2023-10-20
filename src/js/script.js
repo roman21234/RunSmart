@@ -24,6 +24,38 @@ $(document).ready(function(){
 
       toggleSlide('.catalog-item__link');
       toggleSlide('.catalog-item__back');
+      // Modal
+      $('[data-modal=consultation]').on('click', function() { // обращение по атрибуду data-modal, действие клика
+        $('.overlay, #consultation').fadeIn();                
+      })
+      $('.modal-1__close').on('click', function() {
+        $('.overlay, #consultation, #thanks, #order').fadeOut();
+      })
+
+
+      $('.button_catalog').each(function(i){ // 
+        $(this).on('click', function(){
+          $('#order .modal-1__descr').text($('.catalog-item__subtitle').eq(i).text())
+          $('.overlay, #order').fadeIn();
+        })
+      })
+
+      $('#consultation-form').validate();
+      $('#consultation form').validate({
+        rules: {
+          name: "required",
+          phone: "required",
+          email: {
+            required: true,
+            email: true,
+            
+          },
+        }
+      });
+      $('#order form').validate();
 
 });
+
+
+
 
