@@ -50,6 +50,14 @@ $(document).ready(function(){
             email: true,
             
           },
+        },
+        messages: {
+          name: "Пожалуйста, введите свое имя",
+          phone: "Пожалуйста, введите свой телефон",
+          email: {
+            required: "Пожалуйста, введите свою электронную почту",
+            email: "Неправильно введен адрес почты"
+          }
         }
       });
       $('#order form').validate();
