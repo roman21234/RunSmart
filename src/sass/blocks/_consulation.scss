@@ -14,4 +14,12 @@
         color: #ffffff;
         padding-top: 80px;
     }
+    .error {
+        color: #ffffff;
+        border: 1px solid red;
+        margin-bottom: 15px;
+    }
+    label.error {
+        border: none;
+    }
 }
